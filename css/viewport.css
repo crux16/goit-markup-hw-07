@@ -1,4 +1,4 @@
-@media screen and (min-width:767px) and (max-width:1158px) {
+@media screen and (min-width:767px) and (max-width:1157px) {
     /* index view in tablet */
     .container{
         width: 768px;
@@ -106,9 +106,14 @@
     .section-image, .feat-icon {
         display: none;
     }
-    .team-card,.card {
+    .team-card {
         flex-wrap: wrap;
         justify-content: center;
+        row-gap: 72px;
+    }
+    .card {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         row-gap: 72px;
     }
     .socmed-list {
