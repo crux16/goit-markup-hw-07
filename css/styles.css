@@ -916,6 +916,10 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     height: 100vh;
+
+    transition-property: All;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-nav {
     justify-self: flex-start;
