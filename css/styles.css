@@ -881,7 +881,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 40px;
+    padding: 40px 0;
     display: none;
     z-index: 100;
     transform: translateY(-100vh);
