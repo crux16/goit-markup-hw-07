@@ -93,9 +93,9 @@ body {
     letter-spacing: 0.32px;
 }
 .hero-image {
-    background-color: var(--hero-cover);
-    background-blend-mode: overlay;
-    background-image: url("../images/people-office-1.jpg");
+    background-image:
+    linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("../images/people-office-1.jpg");
     background-size: cover;
     color: var(--secondary-color);
 }
@@ -308,7 +308,7 @@ body {
 }
 /* container, alignment and resizing */
 .container {
-    width: 1200px;
+    width: 1158px;
     min-width: 320px;
     max-width: 1200px;
     padding: 0 21px;
@@ -353,7 +353,7 @@ body {
     padding: 120px 0;
 }
 .section-image {
-    padding: 0;
+    padding-top: 0;
 }
 .feature-section {
     display: flex;
@@ -423,7 +423,6 @@ body {
 .container-footer {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 80px;
 }
 .footer-box {
