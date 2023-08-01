@@ -64,6 +64,7 @@
     }
 }
 @media screen and (max-width:768px) {
+    /* mobile view */
     .container {
         padding: 0 15px;
         width: 428px;

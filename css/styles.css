@@ -94,7 +94,7 @@ body {
 }
 .hero-image {
     background-image:
-    linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    linear-gradient(to right, rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),
     url("../images/people-office-1.jpg");
     background-size: cover;
     color: var(--secondary-color);
@@ -344,10 +344,6 @@ body {
 .hero-image {
     padding: 188px 0;
     text-align: center;
-
-    transition-property: All;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section{
     padding: 120px 0;
