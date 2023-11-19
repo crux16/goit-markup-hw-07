@@ -16,13 +16,14 @@
     --two-box : calc((100%-24px)/2);
 }
 
-/* default */
+/* default / reset */
 h1,h2,h3,h4,h5,h6,p { margin: 0;}
 html { box-sizing: border-box;}
 *,*::after,*::before { box-sizing: inherit; }
 img { display: block; max-width: 100%; height: auto;}
 button, input, a {outline: none;}
 .list { list-style: none; padding: 0; margin: 0;}
+.link {text-decoration: none; color: currentColor;}
 
 
 header,section,footer {
@@ -31,7 +32,7 @@ header,section,footer {
     justify-content: flex-end;
 }
 
-/* body */
+/* body*/
 body {
     font-size: 16px;
     font-family: 'Roboto' , sans-serif;
@@ -104,6 +105,7 @@ body {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
+
     text-align: center;
 
     display: flex;
@@ -424,6 +426,7 @@ body {
 .footer-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 16px;
 }
 /* social media link icon etc. */
